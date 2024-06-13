@@ -37,7 +37,7 @@ const Form = ({
             }
       }}
     return (
-        <div className="bg-light h-screen flex items-center justify-center">
+        <div className="bg-gradient-to-r from-sky-500 from-10% via-sky-400 via-30% to-sky-200 to-90% ... h-screen flex items-center justify-center">
             <div className="bg-white w-[500px] h-[600px] shadow-lg rounded-lg flex flex-col justify-center items-center">
                 <div className="text-4xl font-extrabold">Welcome {isSignInPage && 'Back'}</div>
                 <div className="text-xl font-light mb-8">{isSignInPage ? 'Sign in to explore' : 'Sign Up to now get started'}</div>
